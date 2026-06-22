@@ -3,55 +3,146 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI HOT 日报 · 2026-06-21</title>
+<title>AI HOT 日报 · 2026年6月22日</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",sans-serif;background:#fff;color:#1d1d1f;line-height:1.6}
-.container{max-width:680px;margin:0 auto;padding:40px 24px}
-.header{padding-bottom:32px;border-bottom:1px solid #e5e5e5}
-.header h1{font-size:28px;font-weight:700;letter-spacing:-0.02em}
-.header .date{font-size:15px;color:#86868b;margin-top:4px}
-.section{margin-top:40px}
-.section-title{font-size:13px;font-weight:600;color:#86868b;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:16px}
-.item{padding:20px 0;border-bottom:1px solid #f0f0f0}
-.item:last-child{border-bottom:none}
-.item-title{font-size:17px;font-weight:600;margin-bottom:6px}
-.item-summary{font-size:15px;color:#424245}
-.item-source{font-size:13px;color:#86868b;margin-top:8px}
-.item-source a{color:#0066cc;text-decoration:none}
-.footer{margin-top:48px;padding-top:24px;border-top:1px solid #e5e5e5;font-size:13px;color:#86868b;text-align:center}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background: #fbfbfd;
+  color: #1d1d1f;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 64px 24px 96px;
+}
+.header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+.eyebrow {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #86868b;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+h1 {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #1d1d1f;
+}
+.date {
+  font-size: 17px;
+  color: #86868b;
+  margin-top: 8px;
+  font-weight: 400;
+}
+.meta {
+  font-size: 13px;
+  color: #aeaeb2;
+  margin-top: 24px;
+}
+.section {
+  margin-top: 48px;
+}
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1d1d1f;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e5e5e7;
+  margin-bottom: 24px;
+  letter-spacing: -0.01em;
+}
+.item {
+  padding: 24px 0;
+  border-bottom: 1px solid #f2f2f4;
+}
+.item:last-child {
+  border-bottom: none;
+}
+.item-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1d1d1f;
+  margin-bottom: 10px;
+  letter-spacing: -0.01em;
+  line-height: 1.4;
+}
+.item-summary {
+  font-size: 15px;
+  color: #424245;
+  line-height: 1.65;
+  font-weight: 400;
+}
+.source {
+  display: inline-block;
+  margin-top: 14px;
+  font-size: 13px;
+  color: #0071e3;
+  text-decoration: none;
+  font-weight: 500;
+}
+a.source { text-decoration: none; }
+.footer {
+  margin-top: 80px;
+  padding-top: 28px;
+  border-top: 1px solid #e5e5e7;
+  text-align: center;
+  font-size: 12px;
+  color: #aeaeb2;
+}
+@media (max-width: 600px) {
+  .container { padding: 40px 18px 64px; }
+  h1 { font-size: 28px; }
+  .item-title { font-size: 17px; }
+}
 </style>
 </head>
 <body>
 <div class="container">
-
-<div class="header">
-<h1>AI HOT 日报</h1>
-<div class="date">2026-06-21</div>
-</div>
-
-<div class="section">
-<div class="section-title">行业动态</div>
-
-<div class="item">
-<div class="item-title">微软双向转售GPT与DeepSeek成全球最大AI中间商</div>
-<div class="item-summary">彭博社报道，微软已成为全球最大AI模型中转站，既将ChatGPT卖给中国企业，也反向将DeepSeek模型卖给西方客户。报道称微软正在测试DeepSeek-R1和DeepSeek-V4，计划向西方客户提供这些中国模型。这一模式构建起跨中美AI模型的双向贸易网络。</div>
-<div class="item-source">来源：<a href="https://x.com/AYi_AInotes/status/2068218661710512231">阿易 AI Notes (@AYi_AInotes)</a></div>
-</div>
-</div>
-
-<div class="section">
-<div class="section-title">技巧与观点</div>
-
-<div class="item">
-<div class="item-title">开源教程《Deep Agents 实战》发布</div>
-<div class="item-summary">LangChain 官方认证大使 @zhanghaili0610 推出开源教程《Deep Agents 实战》，基于 LangChain / LangGraph 生态，讲解如何用 Deep Agents Harness 框架构建真实 Agent 应用。核心是"三层架构"：Runtime（LangGraph）、Framework（LangChain）、Harness（Deep Agents）。技术内核为上下文工程，通过虚拟文件系统实现按需读取、中间结果落盘、大文件局部读取。教程共 8 章 + 2 准备篇，覆盖虚拟文件系统（六大工具）、任务规划、子 Agent 委派（异步并行）及 Skills 复用。</div>
-<div class="item-source">来源：<a href="https://x.com/shao__meng/status/2068306942184034471">邵猛 (@shao__meng)</a></div>
-</div>
-</div>
-
-<div class="footer">AI HOT 日报 · 共计 2 条动态</div>
-
+  <header class="header">
+    <div class="eyebrow">AI HOT Daily</div>
+    <h1>AI HOT 日报</h1>
+    <div class="date">2026年6月22日</div>
+    <div class="meta">共 4 条 · 数据来源 aihot.virxact.com</div>
+  </header>
+  <section class="section"><h2 class="section-title">产品发布/更新</h2>
+<article class="item">
+<div class="item-title">美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型</div>
+<p class="item-summary">美团近期上线tabbit国际版应用，免费集成多家顶级AI模型的最新旗舰版，包括GPT-5.5、Claude Opus 4.8、Gemini 3.5 Flash，以及国内Kimi-2.6、GLM-5.1、MiniMax-M3。用户无需单独订阅即可使用这些模型。需注意：只有国际版包含海外模型，国内版仅提供国内模型。该应用旨在抢占AI入口，目前处于免费推广阶段。</p>
+<a class="source" href="https://x.com/AYi_AInotes/status/2068637890247016607" target="_blank" rel="noopener">X：阿易 AI Notes (@AYi_AInotes)</a>
+</article>
+</section>
+<section class="section"><h2 class="section-title">行业动态</h2>
+<article class="item">
+<div class="item-title">NSA局长：Mythos数小时内攻破其几乎所有机密系统</div>
+<p class="item-summary">美国NSA局长称，Mythos在数小时内攻破了其几乎所有机密系统。此前Mythos已在5天内破解MacOS。而顶级漏洞团队Google Project Zero完成同等攻击需6个月，单个MacOS零日漏洞价值约200万美元。苹果原假设全球仅10-20个团队具备此能力，Mythos将使该数字增至数千。全球约20亿活跃苹果设备中，Mac用户多为记者、高管、政府官员等高价值目标，苹果曾是“最安全”的选择。</p>
+<a class="source" href="https://x.com/AISafetyMemes/status/2068718552174252477" target="_blank" rel="noopener">X：AI Safety Memes (@AISafetyMemes)</a>
+</article>
+<article class="item">
+<div class="item-title">三星电子向全球员工部署ChatGPT Enterprise和Codex</div>
+<p class="item-summary">三星电子向全球员工推出ChatGPT Enterprise和Codex，这是OpenAI目前规模最大的企业级AI部署之一。</p>
+<a class="source" href="https://openai.com/index/samsung-electronics-chatgpt-codex-deployment" target="_blank" rel="noopener">OpenAI：官网动态（RSS · 排除企业/客户案例）</a>
+</article>
+</section>
+<section class="section"><h2 class="section-title">技巧与观点</h2>
+<article class="item">
+<div class="item-title">腾讯元宝父亲节活动：上传照片生成与年轻爸爸的合影</div>
+<p class="item-summary">腾讯元宝推出父亲节主题活动，用户可选择爸爸年轻时照片与自己的照片，输入提示词（如“帮我生成一张和爸爸的合影，将图2的我融合到图1爸爸的照片中，我想穿越回__年前，和他一起_____；保留爸爸照片的背景、动作及五官；人物姿态自然协调，整体光线与色调保持一致”），元宝即可生成合影。活动旨在让用户“回到过去”看到爸爸的青春模样。</p>
+<a class="source" href="https://mp.weixin.qq.com/s/xrTg2Bdy3FF3gn3C_gVBJQ" target="_blank" rel="noopener">公众号：腾讯元宝</a>
+</article>
+</section>
+  <footer class="footer">
+    © AI HOT Daily · 自动生成于 2026-06-22
+  </footer>
 </div>
 </body>
 </html>
